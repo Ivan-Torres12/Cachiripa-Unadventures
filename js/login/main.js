@@ -20,7 +20,7 @@ export class main extends Phaser.Scene {
 
         // Crear un iframe en el DOM para cargar el HTML externo
         const iframe = document.createElement('iframe');
-        iframe.src = '../html/login.html'; // Ruta del archivo HTML externo
+        iframe.src = './html/login.html'; // Ruta del archivo HTML externo
         iframe.style.position = 'absolute';
         iframe.style.top = '0';
         iframe.style.left = '0';
