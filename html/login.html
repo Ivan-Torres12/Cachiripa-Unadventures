@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="style-src 'self' https://ivan-torres12.github.io">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://www.gstatic.com https://www.googleapis.com;
+    style-src 'self' https://www.gstatic.com;
+    connect-src 'self' https://www.googleapis.com https://firebase.googleapis.com;
+    img-src 'self' data: https://www.gstatic.com;
+    font-src 'self' https://fonts.gstatic.com;
+    frame-src 'self' https://www.gstatic.com;
+">
+
   <title>Animated Login Form</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 </head>
